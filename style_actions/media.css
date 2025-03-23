@@ -1,0 +1,280 @@
+@media only screen and (max-width: 600px) {
+    body{
+        padding: auto;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+    header ul{
+        display: none;
+        list-style: none;
+        background-color: rgb(171, 243, 5);
+        width: 100%;
+        margin-top: 1rem;
+    }
+    header button{
+        background-color: blue;
+        width: 100%;
+        height: 38px;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    header ul li{
+        border-bottom: 1px solid grey;
+        height: 27px;
+        margin: 1rem 0 0 0rem;
+    }
+    header li a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        transition: 0.78s;
+        margin-left: 1rem;
+    }
+    header #menushow{
+        display: block;
+        float: right;
+        font-size: 18px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+    header #menuclose{
+        display: none;
+        float: right;
+        font-size: 20px;
+        font-weight: 900;
+        cursor: pointer;
+    }
+    .product-display{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 10px;
+    }
+    .food{
+        background-color:  rgb(171, 243, 5);
+        max-width: 6rem;
+        height: 13.5rem;
+        border-radius: 8px 8px 20px 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .food img{
+        width: 100%;
+        height: 9rem;
+        border-radius: 8px 8px 0 0;
+    }
+    .food-in{
+        padding: 0;
+    }
+    .food h3{
+        font-size: 12px;
+        text-align: center;
+        border-bottom: .2px solid hwb(19 13% 7%);
+    }
+    .food p{
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .food button{
+        background-color: red;
+        width: 100%;
+        height: 30px;
+        padding: 5px;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: 700;
+        border: none;
+        color:  white;
+        transition: 1s ease;
+    }
+    
+            /* displaying the cart */
+        .active .container-cart{
+            left: 0;
+            width: 100%;
+        }
+        .container-cart .cart{
+            width: 100%;
+            background-color: rgb(171, 243, 5);
+            border-bottom: solid grey 2px;
+            padding: 0;
+            display: inline-block;
+            border-radius: .5rem;
+        }
+        .container-cart{
+            background-color: rgb(83, 82, 82);
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            position: fixed;
+            top: 3.4rem;
+            overflow:scroll;
+        }
+        .container-cart .checkout{
+            background-color: rgb(50, 223, 27);
+            display: grid;
+            width: 100%;
+            height: 25%;
+            padding: 15px;
+            margin: .1rem 0 25rem 0;
+            border-radius: .3rem;
+            bottom: 5rem;
+        }
+        .cart ul .btn-btn{
+            float: left;
+        }
+        .cart ul .price{
+            margin: 0 0 0 0;
+        }
+        .cart ul .name{
+            margin: 1rem 0 0 0;
+        }
+        .cart ul .price{
+            margin: 1rem 0 0 1rem;
+        }
+        .cart ul li button{
+            width: 1.88rem;
+            height: 1.88rem;
+            margin: 0.5rem 0 0 3.5rem;
+        }
+        .cart ul .btn-btn{
+            float: left;
+            margin-right: 1rem;
+        }
+
+    .card-container .card{
+        background-color: rgb(171, 243, 5);
+        max-width: 50%;
+        height: 25rem;
+        display: inline-block;
+        margin: 0 0 4% 0;
+        border: .5px solid grey;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .card-container .card img{
+        width: 100%;
+        height: 10rem;
+        padding-bottom: 2px;
+        user-select: none;
+        border-radius: inherit;
+    }
+
+
+    .container-service{
+        background-color: rgb(171, 243, 5);
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 1rem;
+        margin: 4px 0 1rem 0;
+        border-radius: 5rem;
+    }     
+    .container-service img{
+        width: inherit;
+        height: 10rem;
+        border-radius: 7rem;
+    }
+    .container-service h2{
+        border-bottom: .5px solid grey;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .container-about{
+        margin: 1rem 0 1.5rem 0;
+        width: 100%;
+        float: none;
+    }
+
+
+    .footer{
+        bottom: 100%;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 16px;
+
+    }
+    .container-footer{
+    margin-left: 4%;
+    }
+    .footer .footer-contact{
+        width: 90%;
+        height: 100%;
+        background-color:  rgb(171, 243, 5);
+        float: left;
+        margin: 10px 10px;
+    }
+    .copy{
+        float: left;
+        margin-left: 1rem;
+    }
+    .social{
+        display: block;
+        float: left;
+        margin: 1.94rem 0 2rem 2.7rem;
+    }
+    .policy a{
+        display: block;
+        text-align: center;
+        margin-top: 0.4rem;
+        padding: 0.5rem;
+    }
+    .address{
+        padding: 0.75rem;
+    }
+
+        /* form */
+    .form-container{
+        background-color: rgb(171, 243, 5);
+        height: 100%;
+        width: 100%;
+        margin: 1% auto 3% auto;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    .container-service {
+        width: 100%;
+        height: 100%;
+        background-color:  rgb(171, 243, 5);
+        margin-left: 0px;
+        border-radius: 0rem;
+        cursor: pointer;
+        user-select: none;
+    }
+    .container-service{
+        margin-left: 0px;
+        padding-bottom: 1rem;
+    }
+    .container-service img{
+        width: 24rem;
+        height: 12rem;
+        border-radius: 20pc;
+        margin: 1rem 2rem;
+    }
+    .container-service .container-about{
+        width: 98%;
+        height: 100%;
+        margin: 0rem 5px;
+    }
+    .container-about h3{
+        font-size: 17px;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+    }
+} 
